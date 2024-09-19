@@ -3,33 +3,38 @@
 **NIM**: 2241720136  
 **Nama**: Ahmad Mumtaz Haris  
 
-## Pertemuan 2
+## Pertemuan 3
 
-### Soal 1
+### Praktikum 1
 **Tampilan Screenshot**
 
-![Hello World Screenshot](docs/pertemuan_2/2241720136_hello_word.png)
+![alt text](docs/pertemuan_3/2241720136_praktikum1.png)
+
+
+**Penjelasan**: Kode tersebut adalah contoh penggunaan if else, dimana sebuah variabel akan dicoba kedalam sebuah kondisi, jika kondisi terpenuhi, maka kode yang ada didalamnya akan dijalankan. Contohnya adalah test == "test1", karena variabel test bernilai "test1" maka kode print("test1") akan dijalankan.
 
 ---
 
-### Soal 2
-**Pertanyaan**: Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter? Jelaskan!
+### Praktikum 2
+**Tampilan Sceenshot**
+![alt text](docs/pertemuan_3/2241720136_praktikum2.png)
 
-**Jawaban**:  
-Sangat penting untuk memahami bahasa pemrograman Dart karena Flutter sepenuhnya menggunakan Dart sebagai bahasa dasarnya. Semua widget, logika aplikasi, dan elemen antarmuka pengguna dalam Flutter ditulis menggunakan Dart. Tanpa pemahaman yang baik tentang dasar-dasar Dart, pengembangan aplikasi menggunakan Flutter akan menjadi lebih sulit dan kurang efektif.
+**Penjelasan**: Kode tersebut adalah contoh penggunaan loop while dan do-while, while akan menjalankan kode didalmnya hanya jika kondisi terpenuhi, sedangkan do-while akan menjalankan kode didalmnya setidaknya satu kali meskipun kondisi tidak terpenuhi, karena kode ditulis sebelum kondisi(while). 
 
 ---
 
-### Soal 3
-**Pertanyaan**: Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
+### Praktikum 3
+**Tampilan Sceenshot**
+![alt text](docs/pertemuan_3/2241720136_praktikum3.png)
 
-**Jawaban**:
-- Dart diluncurkan pada tahun 2011 dengan fokus awal pada pengembangan web.
-- Framework Flutter menggunakan bahasa pemrograman Dart.
-- Dart menggabungkan berbagai kelebihan dari banyak bahasa pemrograman, seperti productive tooling, garbage collection, type annotations, statically typed, dan portability.
-- Dart dapat dieksekusi dengan dua cara, yaitu melalui virtual machine dan javascript compilation.
-- Dart dirancang untuk Object-Oriented Programming (OOP).
-- Dart menggunakan function dan method untuk memisahkan kode.
-- **Perbedaan function dan method**:
-  - Function berada di luar class, seperti Function main.
-  - Method terikat pada turunan class dan memiliki referensi implisit ke instance class melalui keyword this.
+**Penjelasan**: Merupakan contoh penggunaan loop for yang hampir sama dengan while.
+
+---
+
+### Tugas Praktikum
+**Tampilan Sceenshot**
+![alt text](docs/pertemuan_3/2241720136_tugasPraktikum.png)
+
+**Penjelasan**: Saya melakukan perulangan menggunakan for. Untuk mencari bilangan prima, saya menggunakan method isPrime yang menerima parameter n yaitu bilangan yang akan diperiksa apakah merupakan bilangan prima atau bukan. Pemeriksaan bilangan prima dilakukan dengan memriksa apakah n <= 1, jika iya makan n bukan bilangan prima. Pemeriksaan kedua dilakukan dengan looping dimulai dari 2 hinggan akar kuadrat n kemudian dilakukan operasi mod, jika menghasilkan 0 (habis dibagi) maka bukan prima. Jika lolos dari semua pemeriksaan diatas maka bilangan tersebut adalah bilangan prima.
+
+---
