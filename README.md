@@ -33,7 +33,7 @@
 
 ### Tugas Praktikum
 **Tampilan Sceenshot**
-![alt text](docs/pertemuan_3/2241720136_tugasPraktikum.png)
+![alt text](docs/pertemuan_3/2241720136_tugaspraktikum.png)
 
 **Penjelasan**: Saya melakukan perulangan menggunakan for. Untuk mencari bilangan prima, saya menggunakan method isPrime yang menerima parameter n yaitu bilangan yang akan diperiksa apakah merupakan bilangan prima atau bukan. Pemeriksaan bilangan prima dilakukan dengan memriksa apakah n <= 1, jika iya makan n bukan bilangan prima. Pemeriksaan kedua dilakukan dengan looping dimulai dari 2 hinggan akar kuadrat n kemudian dilakukan operasi mod, jika menghasilkan 0 (habis dibagi) maka bukan prima. Jika lolos dari semua pemeriksaan diatas maka bilangan tersebut adalah bilangan prima.
 
